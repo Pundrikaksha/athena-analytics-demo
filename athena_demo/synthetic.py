@@ -26,7 +26,9 @@ def _smile(base_iv: float, moneyness: float) -> float:
     return base_iv * (1.0 - 1.6 * moneyness + 18.0 * moneyness * moneyness)
 
 
-def option_chain(index: str, seed: int = 7, inject_anomalies: bool = True) -> dict:
+def option_chain(index: str, seed: int = 7, inject_anomalies: bool = True,
+                 stress_strength: float | None = None) -> dict:
+    """Build one chain. stress_strength switches to the stress test's random planting."""
     cfg = INDICES[index]
     rng = random.Random(f"{index}-{seed}")
     spot, step = cfg["spot"], cfg["step"]
@@ -64,7 +66,9 @@ def option_chain(index: str, seed: int = 7, inject_anomalies: bool = True) -> di
             }
         rows.append(row)
 
-    if inject_anomalies:
+    if stress_strength is not None:
+        _inject_stress(rows, index, seed, stress_strength)
+    elif inject_anomalies:
         _inject(rows, atm, step, rng)
 
     # recompute Greeks from the final (possibly anomalous) IV
@@ -95,6 +99,22 @@ def _inject(rows, atm, step, rng):
     if burst:
         burst["PE"]["volume"] = int(burst["PE"]["oi"] * 6)
         burst["PE"]["anomaly"] = "volume_burst"
+
+
+def _inject_stress(rows, index, seed, strength):
+    """Plant one anomaly of each type on random legs, scaled by strength (1.0 = the standard size).
+
+    Uses its own random stream, so the underlying chain is the same as for that seed without it.
+    """
+    rng = random.Random(f"stress-{index}-{seed}")
+    legs = [(r, kind) for r in rows[3:-3] for kind in ("CE", "PE")]
+    (spike, spike_kind), (kink, kink_kind), (burst, burst_kind) = rng.sample(legs, 3)
+    spike[spike_kind]["oi"] = int(spike[spike_kind]["oi"] * (1 + 3.5 * strength))
+    spike[spike_kind]["anomaly"] = "oi_spike"
+    kink[kink_kind]["iv"] = round(kink[kink_kind]["iv"] * (1 + 0.45 * strength), 2)
+    kink[kink_kind]["anomaly"] = "iv_kink"
+    burst[burst_kind]["volume"] = int(burst[burst_kind]["oi"] * (0.5 + 5.5 * strength))
+    burst[burst_kind]["anomaly"] = "volume_burst"
 
 
 def price_path(index: str, days: int = 250, seed: int = 11) -> list[dict]:

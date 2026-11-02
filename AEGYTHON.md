@@ -8,7 +8,7 @@ Read on 2 Nov 2026 (IST) from the official pages:
   https://docs.google.com/forms/d/e/1FAIpQLSeNfr0ah_d2yHuBzVZmRY87gkt7e4mGOcIB0IqczaUSl8ok9w/viewform
 - Organiser contact: aegython@aeglysai.com
 
-Nothing has been registered, forked or submitted. All of the steps below are for the user to do himself.
+Nothing has been registered, forked or submitted. All of the steps below are for the user to do.
 
 ## Key facts and dates (IST)
 
@@ -59,8 +59,8 @@ Alert, Predict the Outage, AI for Everyday Life.
 
 **Recommended for this repo: Find the Anomaly.** The organiser's minimum prototype is an "offline detector
 with separate training/test inputs, declared thresholds and repeatable tests". This repo has exactly that:
-tuning seeds 0–49 versus held-out seeds 1000–1199, declared thresholds (OI z > 5.0, IV/volume |z| > 3.5) and
-15 unit tests. The domain is synthetic options-market measurements, which is a less usual angle than logs.
+tuning seeds 0–49 versus held-out seeds 1000–1199, declared thresholds (OI z > 5.0, IV |z| > 3.5, volume z > 3.5) and
+the automated tests in `tests/`. The domain is synthetic options-market measurements, which is a less usual angle than logs.
 Fallback: AI for Everyday Life.
 
 ## Step 4: final project submission (Round 1)
@@ -72,7 +72,7 @@ Required items, with this repo's status:
 | Team ID | Organiser issues after selection |
 | Selected challenge | Find the Anomaly (proposed) |
 | **Public** GitHub repo + frozen review commit or tag | ⛔ Repo is local only. Needs the user's yes to publish |
-| README with reproducible setup | ✅ `README.md` |
+| README with reproducible setup | ✅ `README.md`, `./run_all.sh` |
 | Demo video, at most 2 minutes (narrated or captioned screen recording) | ⛔ To record |
 | Explanation of the AI/ML or intelligent technique | ✅ README "The intelligent part" |
 | Testing or validation evidence | ✅ `tests/`, `scripts/evaluate_anomaly.py`, `docs/data/anomaly_evaluation.json` |

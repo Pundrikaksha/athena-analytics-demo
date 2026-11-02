@@ -17,6 +17,7 @@ import statistics
 THRESHOLD = 3.5  # IV kink and volume burst
 OI_THRESHOLD = 5.0
 KINDS = ("CE", "PE")
+TYPES = ("oi_spike", "iv_kink", "volume_burst")
 
 
 def robust_z(values: list[float]) -> list[float]:
@@ -86,10 +87,16 @@ def detect(chain: dict, threshold: float = THRESHOLD, oi_threshold: float = OI_T
     return sorted(findings, key=lambda f: -abs(f["z"]))
 
 
-def evaluate(chain: dict) -> dict:
-    """Compare detections with the injected ground-truth labels."""
+def compare(chain: dict) -> tuple[set, set]:
+    """Return the (planted, flagged) sets of (strike, leg, type). Labels are read only here."""
     truth = {(r["strike"], k, r[k]["anomaly"]) for r in chain["rows"] for k in KINDS if r[k]["anomaly"]}
     found = {(f["strike"], f["kind"], f["type"]) for f in detect(chain)}
+    return truth, found
+
+
+def evaluate(chain: dict) -> dict:
+    """Compare detections with the injected ground-truth labels."""
+    truth, found = compare(chain)
     tp = len(truth & found)
     precision = tp / len(found) if found else 1.0
     recall = tp / len(truth) if truth else 1.0

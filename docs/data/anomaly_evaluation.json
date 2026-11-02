@@ -1,20 +1,313 @@
 {
-  "threshold_iv_volume": 3.5,
+  "threshold_iv": 3.5,
+  "threshold_volume": 3.5,
   "threshold_oi": 5.0,
   "tuning_seeds_0_49": {
     "chains": 100,
     "planted": 300,
     "flagged": 322,
+    "true_positives": 300,
+    "false_positives": 22,
+    "false_negatives": 0,
     "precision": 0.9317,
     "recall": 1.0,
-    "false_flags_per_clean_chain": 0.25
+    "f1": 0.9646,
+    "false_flags_at_round_strikes": 5,
+    "false_flags_per_clean_chain": 0.25,
+    "by_type": {
+      "oi_spike": {
+        "planted": 100,
+        "flagged": 103,
+        "true_positives": 100,
+        "false_positives": 3,
+        "false_negatives": 0,
+        "precision": 0.9709,
+        "recall": 1.0,
+        "f1": 0.9852,
+        "false_flags_at_round_strikes": 3,
+        "false_flags_per_clean_chain": 0.06
+      },
+      "iv_kink": {
+        "planted": 100,
+        "flagged": 119,
+        "true_positives": 100,
+        "false_positives": 19,
+        "false_negatives": 0,
+        "precision": 0.8403,
+        "recall": 1.0,
+        "f1": 0.9132,
+        "false_flags_at_round_strikes": 2,
+        "false_flags_per_clean_chain": 0.19
+      },
+      "volume_burst": {
+        "planted": 100,
+        "flagged": 100,
+        "true_positives": 100,
+        "false_positives": 0,
+        "false_negatives": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "false_flags_at_round_strikes": 0,
+        "false_flags_per_clean_chain": 0.0
+      }
+    }
   },
   "test_seeds_1000_1199": {
     "chains": 400,
     "planted": 1200,
     "flagged": 1310,
+    "true_positives": 1186,
+    "false_positives": 124,
+    "false_negatives": 14,
     "precision": 0.9053,
     "recall": 0.9883,
-    "false_flags_per_clean_chain": 0.4025
+    "f1": 0.945,
+    "false_flags_at_round_strikes": 41,
+    "false_flags_per_clean_chain": 0.4025,
+    "by_type": {
+      "oi_spike": {
+        "planted": 400,
+        "flagged": 420,
+        "true_positives": 386,
+        "false_positives": 34,
+        "false_negatives": 14,
+        "precision": 0.919,
+        "recall": 0.965,
+        "f1": 0.9415,
+        "false_flags_at_round_strikes": 34,
+        "false_flags_per_clean_chain": 0.105
+      },
+      "iv_kink": {
+        "planted": 400,
+        "flagged": 490,
+        "true_positives": 400,
+        "false_positives": 90,
+        "false_negatives": 0,
+        "precision": 0.8163,
+        "recall": 1.0,
+        "f1": 0.8989,
+        "false_flags_at_round_strikes": 7,
+        "false_flags_per_clean_chain": 0.2975
+      },
+      "volume_burst": {
+        "planted": 400,
+        "flagged": 400,
+        "true_positives": 400,
+        "false_positives": 0,
+        "false_negatives": 0,
+        "precision": 1.0,
+        "recall": 1.0,
+        "f1": 1.0,
+        "false_flags_at_round_strikes": 0,
+        "false_flags_per_clean_chain": 0.0
+      }
+    }
+  },
+  "stress_seeds_2000_2099": {
+    "0.25": {
+      "chains": 200,
+      "planted": 600,
+      "flagged": 448,
+      "true_positives": 412,
+      "false_positives": 36,
+      "false_negatives": 188,
+      "precision": 0.9196,
+      "recall": 0.6867,
+      "f1": 0.7863,
+      "false_flags_at_round_strikes": 12,
+      "false_flags_per_clean_chain": 0.245,
+      "by_type": {
+        "oi_spike": {
+          "planted": 200,
+          "flagged": 31,
+          "true_positives": 23,
+          "false_positives": 8,
+          "false_negatives": 177,
+          "precision": 0.7419,
+          "recall": 0.115,
+          "f1": 0.1991,
+          "false_flags_at_round_strikes": 8,
+          "false_flags_per_clean_chain": 0.045
+        },
+        "iv_kink": {
+          "planted": 200,
+          "flagged": 228,
+          "true_positives": 200,
+          "false_positives": 28,
+          "false_negatives": 0,
+          "precision": 0.8772,
+          "recall": 1.0,
+          "f1": 0.9346,
+          "false_flags_at_round_strikes": 4,
+          "false_flags_per_clean_chain": 0.2
+        },
+        "volume_burst": {
+          "planted": 200,
+          "flagged": 189,
+          "true_positives": 189,
+          "false_positives": 0,
+          "false_negatives": 11,
+          "precision": 1.0,
+          "recall": 0.945,
+          "f1": 0.9717,
+          "false_flags_at_round_strikes": 0,
+          "false_flags_per_clean_chain": 0.0
+        }
+      }
+    },
+    "0.50": {
+      "chains": 200,
+      "planted": 600,
+      "flagged": 541,
+      "true_positives": 502,
+      "false_positives": 39,
+      "false_negatives": 98,
+      "precision": 0.9279,
+      "recall": 0.8367,
+      "f1": 0.8799,
+      "false_flags_at_round_strikes": 11,
+      "false_flags_per_clean_chain": 0.245,
+      "by_type": {
+        "oi_spike": {
+          "planted": 200,
+          "flagged": 108,
+          "true_positives": 102,
+          "false_positives": 6,
+          "false_negatives": 98,
+          "precision": 0.9444,
+          "recall": 0.51,
+          "f1": 0.6623,
+          "false_flags_at_round_strikes": 6,
+          "false_flags_per_clean_chain": 0.045
+        },
+        "iv_kink": {
+          "planted": 200,
+          "flagged": 233,
+          "true_positives": 200,
+          "false_positives": 33,
+          "false_negatives": 0,
+          "precision": 0.8584,
+          "recall": 1.0,
+          "f1": 0.9238,
+          "false_flags_at_round_strikes": 5,
+          "false_flags_per_clean_chain": 0.2
+        },
+        "volume_burst": {
+          "planted": 200,
+          "flagged": 200,
+          "true_positives": 200,
+          "false_positives": 0,
+          "false_negatives": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "false_flags_at_round_strikes": 0,
+          "false_flags_per_clean_chain": 0.0
+        }
+      }
+    },
+    "0.75": {
+      "chains": 200,
+      "planted": 600,
+      "flagged": 621,
+      "true_positives": 573,
+      "false_positives": 48,
+      "false_negatives": 27,
+      "precision": 0.9227,
+      "recall": 0.955,
+      "f1": 0.9386,
+      "false_flags_at_round_strikes": 11,
+      "false_flags_per_clean_chain": 0.245,
+      "by_type": {
+        "oi_spike": {
+          "planted": 200,
+          "flagged": 179,
+          "true_positives": 173,
+          "false_positives": 6,
+          "false_negatives": 27,
+          "precision": 0.9665,
+          "recall": 0.865,
+          "f1": 0.9129,
+          "false_flags_at_round_strikes": 6,
+          "false_flags_per_clean_chain": 0.045
+        },
+        "iv_kink": {
+          "planted": 200,
+          "flagged": 242,
+          "true_positives": 200,
+          "false_positives": 42,
+          "false_negatives": 0,
+          "precision": 0.8264,
+          "recall": 1.0,
+          "f1": 0.905,
+          "false_flags_at_round_strikes": 5,
+          "false_flags_per_clean_chain": 0.2
+        },
+        "volume_burst": {
+          "planted": 200,
+          "flagged": 200,
+          "true_positives": 200,
+          "false_positives": 0,
+          "false_negatives": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "false_flags_at_round_strikes": 0,
+          "false_flags_per_clean_chain": 0.0
+        }
+      }
+    },
+    "1.00": {
+      "chains": 200,
+      "planted": 600,
+      "flagged": 662,
+      "true_positives": 596,
+      "false_positives": 66,
+      "false_negatives": 4,
+      "precision": 0.9003,
+      "recall": 0.9933,
+      "f1": 0.9445,
+      "false_flags_at_round_strikes": 13,
+      "false_flags_per_clean_chain": 0.245,
+      "by_type": {
+        "oi_spike": {
+          "planted": 200,
+          "flagged": 202,
+          "true_positives": 196,
+          "false_positives": 6,
+          "false_negatives": 4,
+          "precision": 0.9703,
+          "recall": 0.98,
+          "f1": 0.9751,
+          "false_flags_at_round_strikes": 6,
+          "false_flags_per_clean_chain": 0.045
+        },
+        "iv_kink": {
+          "planted": 200,
+          "flagged": 260,
+          "true_positives": 200,
+          "false_positives": 60,
+          "false_negatives": 0,
+          "precision": 0.7692,
+          "recall": 1.0,
+          "f1": 0.8696,
+          "false_flags_at_round_strikes": 7,
+          "false_flags_per_clean_chain": 0.2
+        },
+        "volume_burst": {
+          "planted": 200,
+          "flagged": 200,
+          "true_positives": 200,
+          "false_positives": 0,
+          "false_negatives": 0,
+          "precision": 1.0,
+          "recall": 1.0,
+          "f1": 1.0,
+          "false_flags_at_round_strikes": 0,
+          "false_flags_per_clean_chain": 0.0
+        }
+      }
+    }
   }
 }
