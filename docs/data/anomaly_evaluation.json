@@ -1,0 +1,20 @@
+{
+  "threshold_iv_volume": 3.5,
+  "threshold_oi": 5.0,
+  "tuning_seeds_0_49": {
+    "chains": 100,
+    "planted": 300,
+    "flagged": 322,
+    "precision": 0.9317,
+    "recall": 1.0,
+    "false_flags_per_clean_chain": 0.25
+  },
+  "test_seeds_1000_1199": {
+    "chains": 400,
+    "planted": 1200,
+    "flagged": 1310,
+    "precision": 0.9053,
+    "recall": 0.9883,
+    "false_flags_per_clean_chain": 0.4025
+  }
+}

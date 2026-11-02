@@ -1,0 +1,912 @@
+{
+ "index": "NIFTY",
+ "spot": 24150.0,
+ "prev_spot": 24053.4,
+ "atm": 24150,
+ "step": 50,
+ "lot": 75,
+ "days_to_expiry": 7,
+ "risk_free": 0.065,
+ "rows": [
+  {
+   "strike": 23400,
+   "CE": {
+    "ltp": 787.37,
+    "prev_ltp": 707.88,
+    "iv": 13.88,
+    "oi": 112412,
+    "prev_oi": 110336,
+    "volume": 64105,
+    "anomaly": null,
+    "delta": 0.9569,
+    "gamma": 0.0002,
+    "vega": 3.0619,
+    "theta": -7.01075
+   },
+   "PE": {
+    "ltp": 7.78,
+    "prev_ltp": 17.68,
+    "iv": 13.73,
+    "oi": 1302127,
+    "prev_oi": 1269323,
+    "volume": 492744,
+    "anomaly": null,
+    "delta": -0.04143,
+    "gamma": 0.00019,
+    "vega": 2.96555,
+    "theta": -2.72878
+   }
+  },
+  {
+   "strike": 23450,
+   "CE": {
+    "ltp": 739.67,
+    "prev_ltp": 660.18,
+    "iv": 13.8,
+    "oi": 149527,
+    "prev_oi": 154672,
+    "volume": 72085,
+    "anomaly": null,
+    "delta": 0.94673,
+    "gamma": 0.00024,
+    "vega": 3.62772,
+    "theta": -7.51574
+   },
+   "PE": {
+    "ltp": 10.58,
+    "prev_ltp": 22.16,
+    "iv": 13.83,
+    "oi": 1652782,
+    "prev_oi": 1622533,
+    "volume": 1041909,
+    "anomaly": null,
+    "delta": -0.05365,
+    "gamma": 0.00024,
+    "vega": 3.64801,
+    "theta": -3.37109
+   }
+  },
+  {
+   "strike": 23500,
+   "CE": {
+    "ltp": 692.48,
+    "prev_ltp": 614.59,
+    "iv": 13.72,
+    "oi": 370259,
+    "prev_oi": 364663,
+    "volume": 231304,
+    "anomaly": null,
+    "delta": 0.93462,
+    "gamma": 0.00028,
+    "vega": 4.25984,
+    "theta": -8.07082
+   },
+   "PE": {
+    "ltp": 13.3,
+    "prev_ltp": 23.54,
+    "iv": 13.74,
+    "oi": 4024243,
+    "prev_oi": 3507562,
+    "volume": 1229841,
+    "anomaly": null,
+    "delta": -0.06566,
+    "gamma": 0.00028,
+    "vega": 4.27383,
+    "theta": -3.90971
+   }
+  },
+  {
+   "strike": 23550,
+   "CE": {
+    "ltp": 647.06,
+    "prev_ltp": 569.53,
+    "iv": 13.87,
+    "oi": 346123,
+    "prev_oi": 342778,
+    "volume": 164760,
+    "anomaly": null,
+    "delta": 0.91687,
+    "gamma": 0.00033,
+    "vega": 5.1181,
+    "theta": -8.8985
+   },
+   "PE": {
+    "ltp": 17.8,
+    "prev_ltp": 31.75,
+    "iv": 13.88,
+    "oi": 3094730,
+    "prev_oi": 2807377,
+    "volume": 1526542,
+    "anomaly": null,
+    "delta": -0.08328,
+    "gamma": 0.00033,
+    "vega": 5.12507,
+    "theta": -4.7198
+   }
+  },
+  {
+   "strike": 23600,
+   "CE": {
+    "ltp": 599.65,
+    "prev_ltp": 527.96,
+    "iv": 13.48,
+    "oi": 645999,
+    "prev_oi": 642144,
+    "volume": 367958,
+    "anomaly": null,
+    "delta": 0.90494,
+    "gamma": 0.00038,
+    "vega": 5.65549,
+    "theta": -9.23049
+   },
+   "PE": {
+    "ltp": 20.41,
+    "prev_ltp": 38.92,
+    "iv": 13.51,
+    "oi": 4083637,
+    "prev_oi": 4054916,
+    "volume": 1608280,
+    "anomaly": null,
+    "delta": -0.09555,
+    "gamma": 0.00038,
+    "vega": 5.67676,
+    "theta": -5.06351
+   }
+  },
+  {
+   "strike": 23650,
+   "CE": {
+    "ltp": 555.3,
+    "prev_ltp": 482.95,
+    "iv": 13.51,
+    "oi": 771483,
+    "prev_oi": 757241,
+    "volume": 259461,
+    "anomaly": null,
+    "delta": 0.8838,
+    "gamma": 0.00043,
+    "vega": 6.53955,
+    "theta": -10.01273
+   },
+   "PE": {
+    "ltp": 24.92,
+    "prev_ltp": 46.64,
+    "iv": 13.37,
+    "oi": 3980937,
+    "prev_oi": 3652368,
+    "volume": 2405570,
+    "anomaly": null,
+    "delta": -0.11381,
+    "gamma": 0.00043,
+    "vega": 6.44363,
+    "theta": -5.65977
+   }
+  },
+  {
+   "strike": 23700,
+   "CE": {
+    "ltp": 511.89,
+    "prev_ltp": 447.33,
+    "iv": 13.5,
+    "oi": 1301853,
+    "prev_oi": 1321390,
+    "volume": 554776,
+    "anomaly": null,
+    "delta": 0.8604,
+    "gamma": 0.00049,
+    "vega": 7.42943,
+    "theta": -10.77325
+   },
+   "PE": {
+    "ltp": 32.13,
+    "prev_ltp": 56.31,
+    "iv": 13.47,
+    "oi": 5718419,
+    "prev_oi": 5657498,
+    "volume": 1978329,
+    "anomaly": null,
+    "delta": -0.13908,
+    "gamma": 0.00049,
+    "vega": 7.4104,
+    "theta": -6.52602
+   }
+  },
+  {
+   "strike": 23750,
+   "CE": {
+    "ltp": 469.7,
+    "prev_ltp": 402.89,
+    "iv": 13.49,
+    "oi": 1731357,
+    "prev_oi": 1692213,
+    "volume": 917579,
+    "anomaly": null,
+    "delta": 0.834,
+    "gamma": 0.00055,
+    "vega": 8.33444,
+    "theta": -11.53395
+   },
+   "PE": {
+    "ltp": 38.89,
+    "prev_ltp": 62.94,
+    "iv": 13.34,
+    "oi": 6546422,
+    "prev_oi": 6227894,
+    "volume": 39278532,
+    "anomaly": "volume_burst",
+    "delta": -0.16335,
+    "gamma": 0.00055,
+    "vega": 8.24791,
+    "theta": -7.14965
+   }
+  },
+  {
+   "strike": 23800,
+   "CE": {
+    "ltp": 428.05,
+    "prev_ltp": 367.91,
+    "iv": 13.38,
+    "oi": 2018876,
+    "prev_oi": 2076336,
+    "volume": 716229,
+    "anomaly": null,
+    "delta": 0.80632,
+    "gamma": 0.00061,
+    "vega": 9.18277,
+    "theta": -12.16761
+   },
+   "PE": {
+    "ltp": 48.82,
+    "prev_ltp": 80.88,
+    "iv": 13.43,
+    "oi": 8064099,
+    "prev_oi": 7667187,
+    "volume": 4756466,
+    "anomaly": null,
+    "delta": -0.19455,
+    "gamma": 0.00061,
+    "vega": 9.20775,
+    "theta": -7.98749
+   }
+  },
+  {
+   "strike": 23850,
+   "CE": {
+    "ltp": 388.36,
+    "prev_ltp": 334.85,
+    "iv": 13.33,
+    "oi": 3287409,
+    "prev_oi": 3358800,
+    "volume": 1918416,
+    "anomaly": null,
+    "delta": 0.77455,
+    "gamma": 0.00067,
+    "vega": 10.04174,
+    "theta": -12.8231
+   },
+   "PE": {
+    "ltp": 57.38,
+    "prev_ltp": 94.65,
+    "iv": 13.21,
+    "oi": 9021240,
+    "prev_oi": 8745143,
+    "volume": 3958565,
+    "anomaly": null,
+    "delta": -0.22345,
+    "gamma": 0.00068,
+    "vega": 9.99106,
+    "theta": -8.45606
+   }
+  },
+  {
+   "strike": 23900,
+   "CE": {
+    "ltp": 348.4,
+    "prev_ltp": 295.22,
+    "iv": 13.11,
+    "oi": 3765948,
+    "prev_oi": 3355981,
+    "volume": 1375108,
+    "anomaly": null,
+    "delta": 0.74244,
+    "gamma": 0.00074,
+    "vega": 10.79522,
+    "theta": -13.23992
+   },
+   "PE": {
+    "ltp": 68.05,
+    "prev_ltp": 105.72,
+    "iv": 13.05,
+    "oi": 7958702,
+    "prev_oi": 7564311,
+    "volume": 4143315,
+    "anomaly": null,
+    "delta": -0.25662,
+    "gamma": 0.00074,
+    "vega": 10.77475,
+    "theta": -8.92786
+   }
+  },
+  {
+   "strike": 23950,
+   "CE": {
+    "ltp": 311.25,
+    "prev_ltp": 260.78,
+    "iv": 12.99,
+    "oi": 4554786,
+    "prev_oi": 4574710,
+    "volume": 2266980,
+    "anomaly": null,
+    "delta": 0.7056,
+    "gamma": 0.00079,
+    "vega": 11.52858,
+    "theta": -13.67601
+   },
+   "PE": {
+    "ltp": 83.72,
+    "prev_ltp": 127.46,
+    "iv": 19.13,
+    "oi": 8216598,
+    "prev_oi": 7751914,
+    "volume": 3369249,
+    "anomaly": "iv_kink",
+    "delta": -0.35413,
+    "gamma": 0.00058,
+    "vega": 12.44006,
+    "theta": -15.44779
+   }
+  },
+  {
+   "strike": 24000,
+   "CE": {
+    "ltp": 281.37,
+    "prev_ltp": 233.2,
+    "iv": 13.32,
+    "oi": 8592309,
+    "prev_oi": 8680306,
+    "volume": 4868723,
+    "anomaly": null,
+    "delta": 0.66077,
+    "gamma": 0.00082,
+    "vega": 12.24359,
+    "theta": -14.44057
+   },
+   "PE": {
+    "ltp": 98.11,
+    "prev_ltp": 140.21,
+    "iv": 13.05,
+    "oi": 14814946,
+    "prev_oi": 15010893,
+    "volume": 4752123,
+    "anomaly": null,
+    "delta": -0.33623,
+    "gamma": 0.00084,
+    "vega": 12.20163,
+    "theta": -9.91016
+   }
+  },
+  {
+   "strike": 24050,
+   "CE": {
+    "ltp": 247.45,
+    "prev_ltp": 202.91,
+    "iv": 13.14,
+    "oi": 7226509,
+    "prev_oi": 6980109,
+    "volume": 2571376,
+    "anomaly": null,
+    "delta": 0.62006,
+    "gamma": 0.00087,
+    "vega": 12.73345,
+    "theta": -14.57386
+   },
+   "PE": {
+    "ltp": 115.68,
+    "prev_ltp": 164.74,
+    "iv": 13.0,
+    "oi": 8317783,
+    "prev_oi": 7981216,
+    "volume": 5401903,
+    "anomaly": null,
+    "delta": -0.37876,
+    "gamma": 0.00087,
+    "vega": 12.72135,
+    "theta": -10.16312
+   }
+  },
+  {
+   "strike": 24100,
+   "CE": {
+    "ltp": 214.3,
+    "prev_ltp": 177.1,
+    "iv": 12.86,
+    "oi": 7502392,
+    "prev_oi": 7085540,
+    "volume": 2264525,
+    "anomaly": null,
+    "delta": 0.57741,
+    "gamma": 0.00091,
+    "vega": 13.09029,
+    "theta": -14.46948
+   },
+   "PE": {
+    "ltp": 136.11,
+    "prev_ltp": 190.75,
+    "iv": 13.0,
+    "oi": 9147115,
+    "prev_oi": 8315063,
+    "volume": 4613659,
+    "anomaly": null,
+    "delta": -0.42334,
+    "gamma": 0.0009,
+    "vega": 13.09515,
+    "theta": -10.31492
+   }
+  },
+  {
+   "strike": 24150,
+   "CE": {
+    "ltp": 188.63,
+    "prev_ltp": 149.01,
+    "iv": 12.99,
+    "oi": 8692827,
+    "prev_oi": 8619449,
+    "volume": 4452754,
+    "anomaly": null,
+    "delta": 0.5312,
+    "gamma": 0.00092,
+    "vega": 13.30144,
+    "theta": -14.59277
+   },
+   "PE": {
+    "ltp": 160.93,
+    "prev_ltp": 223.79,
+    "iv": 13.17,
+    "oi": 8482096,
+    "prev_oi": 8058875,
+    "volume": 3323715,
+    "anomaly": null,
+    "delta": -0.46913,
+    "gamma": 0.0009,
+    "vega": 13.3023,
+    "theta": -10.46743
+   }
+  },
+  {
+   "strike": 24200,
+   "CE": {
+    "ltp": 165.29,
+    "prev_ltp": 133.3,
+    "iv": 13.11,
+    "oi": 8402045,
+    "prev_oi": 7914317,
+    "volume": 5212564,
+    "anomaly": null,
+    "delta": 0.48557,
+    "gamma": 0.00091,
+    "vega": 13.33354,
+    "theta": -14.54476
+   },
+   "PE": {
+    "ltp": 182.15,
+    "prev_ltp": 247.47,
+    "iv": 12.89,
+    "oi": 7655287,
+    "prev_oi": 7655951,
+    "volume": 3773387,
+    "anomaly": null,
+    "delta": -0.5148,
+    "gamma": 0.00092,
+    "vega": 13.33309,
+    "theta": -10.02954
+   }
+  },
+  {
+   "strike": 24250,
+   "CE": {
+    "ltp": 138.33,
+    "prev_ltp": 115.35,
+    "iv": 12.8,
+    "oi": 8114590,
+    "prev_oi": 7551003,
+    "volume": 4774728,
+    "anomaly": null,
+    "delta": 0.43883,
+    "gamma": 0.00092,
+    "vega": 13.18514,
+    "theta": -13.91762
+   },
+   "PE": {
+    "ltp": 208.17,
+    "prev_ltp": 276.18,
+    "iv": 12.8,
+    "oi": 6738882,
+    "prev_oi": 6196345,
+    "volume": 3448465,
+    "anomaly": null,
+    "delta": -0.56117,
+    "gamma": 0.00092,
+    "vega": 13.18514,
+    "theta": -9.60451
+   }
+  },
+  {
+   "strike": 24300,
+   "CE": {
+    "ltp": 121.95,
+    "prev_ltp": 103.88,
+    "iv": 13.11,
+    "oi": 9845184,
+    "prev_oi": 9526243,
+    "volume": 4665583,
+    "anomaly": null,
+    "delta": 0.39615,
+    "gamma": 0.00088,
+    "vega": 12.88766,
+    "theta": -13.75038
+   },
+   "PE": {
+    "ltp": 237.19,
+    "prev_ltp": 311.51,
+    "iv": 12.76,
+    "oi": 6131546,
+    "prev_oi": 6021218,
+    "volume": 2763364,
+    "anomaly": null,
+    "delta": -0.60682,
+    "gamma": 0.0009,
+    "vega": 12.86112,
+    "theta": -9.07003
+   }
+  },
+  {
+   "strike": 24350,
+   "CE": {
+    "ltp": 99.92,
+    "prev_ltp": 83.18,
+    "iv": 12.81,
+    "oi": 8002554,
+    "prev_oi": 7593059,
+    "volume": 2726671,
+    "anomaly": null,
+    "delta": 0.34983,
+    "gamma": 0.00086,
+    "vega": 12.38552,
+    "theta": -12.81949
+   },
+   "PE": {
+    "ltp": 271.37,
+    "prev_ltp": 341.69,
+    "iv": 12.96,
+    "oi": 4915768,
+    "prev_oi": 4724588,
+    "volume": 2930708,
+    "anomaly": null,
+    "delta": -0.64844,
+    "gamma": 0.00086,
+    "vega": 12.40772,
+    "theta": -8.64896
+   }
+  },
+  {
+   "strike": 24400,
+   "CE": {
+    "ltp": 85.01,
+    "prev_ltp": 64.38,
+    "iv": 12.92,
+    "oi": 34697416,
+    "prev_oi": 8322020,
+    "volume": 2735285,
+    "anomaly": "oi_spike",
+    "delta": 0.3096,
+    "gamma": 0.00082,
+    "vega": 11.79225,
+    "theta": -12.19891
+   },
+   "PE": {
+    "ltp": 302.85,
+    "prev_ltp": 381.69,
+    "iv": 12.77,
+    "oi": 3334059,
+    "prev_oi": 3159572,
+    "volume": 1102554,
+    "anomaly": null,
+    "delta": -0.69253,
+    "gamma": 0.00082,
+    "vega": 11.75665,
+    "theta": -7.69146
+   }
+  },
+  {
+   "strike": 24450,
+   "CE": {
+    "ltp": 71.67,
+    "prev_ltp": 54.31,
+    "iv": 12.99,
+    "oi": 8839796,
+    "prev_oi": 8526335,
+    "volume": 4234719,
+    "anomaly": null,
+    "delta": 0.27159,
+    "gamma": 0.00076,
+    "vega": 11.09067,
+    "theta": -11.44583
+   },
+   "PE": {
+    "ltp": 337.96,
+    "prev_ltp": 413.78,
+    "iv": 12.7,
+    "oi": 3353570,
+    "prev_oi": 3397828,
+    "volume": 1621376,
+    "anomaly": null,
+    "delta": -0.73312,
+    "gamma": 0.00077,
+    "vega": 10.99361,
+    "theta": -6.75964
+   }
+  },
+  {
+   "strike": 24500,
+   "CE": {
+    "ltp": 57.34,
+    "prev_ltp": 47.39,
+    "iv": 12.8,
+    "oi": 11918218,
+    "prev_oi": 11952874,
+    "volume": 5416456,
+    "anomaly": null,
+    "delta": 0.23192,
+    "gamma": 0.00071,
+    "vega": 10.20247,
+    "theta": -10.31517
+   },
+   "PE": {
+    "ltp": 377.14,
+    "prev_ltp": 456.99,
+    "iv": 12.83,
+    "oi": 4020565,
+    "prev_oi": 3840757,
+    "volume": 1243552,
+    "anomaly": null,
+    "delta": -0.76754,
+    "gamma": 0.00071,
+    "vega": 10.21558,
+    "theta": -5.99371
+   }
+  },
+  {
+   "strike": 24550,
+   "CE": {
+    "ltp": 45.26,
+    "prev_ltp": 40.95,
+    "iv": 12.62,
+    "oi": 5652944,
+    "prev_oi": 5696556,
+    "volume": 2272609,
+    "anomaly": null,
+    "delta": 0.19492,
+    "gamma": 0.00065,
+    "vega": 9.21866,
+    "theta": -9.14021
+   },
+   "PE": {
+    "ltp": 416.17,
+    "prev_ltp": 501.43,
+    "iv": 12.79,
+    "oi": 1491060,
+    "prev_oi": 1405278,
+    "volume": 739874,
+    "anomaly": null,
+    "delta": -0.80184,
+    "gamma": 0.00065,
+    "vega": 9.31094,
+    "theta": -4.98361
+   }
+  },
+  {
+   "strike": 24600,
+   "CE": {
+    "ltp": 36.97,
+    "prev_ltp": 27.19,
+    "iv": 12.68,
+    "oi": 6182209,
+    "prev_oi": 6097422,
+    "volume": 2271602,
+    "anomaly": null,
+    "delta": 0.16562,
+    "gamma": 0.00059,
+    "vega": 8.32221,
+    "theta": -8.24325
+   },
+   "PE": {
+    "ltp": 457.95,
+    "prev_ltp": 539.23,
+    "iv": 12.87,
+    "oi": 1219128,
+    "prev_oi": 1133437,
+    "volume": 782627,
+    "anomaly": null,
+    "delta": -0.83072,
+    "gamma": 0.00059,
+    "vega": 8.44024,
+    "theta": -4.10479
+   }
+  },
+  {
+   "strike": 24650,
+   "CE": {
+    "ltp": 30.64,
+    "prev_ltp": 23.05,
+    "iv": 12.82,
+    "oi": 4463942,
+    "prev_oi": 4539673,
+    "volume": 2483105,
+    "anomaly": null,
+    "delta": 0.14115,
+    "gamma": 0.00052,
+    "vega": 7.4853,
+    "theta": -7.45597
+   },
+   "PE": {
+    "ltp": 497.45,
+    "prev_ltp": 588.02,
+    "iv": 12.48,
+    "oi": 823148,
+    "prev_oi": 779074,
+    "volume": 270962,
+    "anomaly": null,
+    "delta": -0.86541,
+    "gamma": 0.00052,
+    "vega": 7.2463,
+    "theta": -2.64913
+   }
+  },
+  {
+   "strike": 24700,
+   "CE": {
+    "ltp": 23.03,
+    "prev_ltp": 19.9,
+    "iv": 12.61,
+    "oi": 3725425,
+    "prev_oi": 3558312,
+    "volume": 1582185,
+    "anomaly": null,
+    "delta": 0.11325,
+    "gamma": 0.00046,
+    "vega": 6.4212,
+    "theta": -6.26663
+   },
+   "PE": {
+    "ltp": 543.51,
+    "prev_ltp": 631.4,
+    "iv": 12.8,
+    "oi": 668748,
+    "prev_oi": 620719,
+    "volume": 251228,
+    "anomaly": null,
+    "delta": -0.88321,
+    "gamma": 0.00046,
+    "vega": 6.56312,
+    "theta": -2.10537
+   }
+  },
+  {
+   "strike": 24750,
+   "CE": {
+    "ltp": 19.35,
+    "prev_ltp": 14.64,
+    "iv": 12.84,
+    "oi": 3101510,
+    "prev_oi": 2908410,
+    "volume": 1079426,
+    "anomaly": null,
+    "delta": 0.0966,
+    "gamma": 0.0004,
+    "vega": 5.72267,
+    "theta": -5.66052
+   },
+   "PE": {
+    "ltp": 587.57,
+    "prev_ltp": 675.7,
+    "iv": 12.67,
+    "oi": 379460,
+    "prev_oi": 341637,
+    "volume": 234347,
+    "anomaly": null,
+    "delta": -0.90639,
+    "gamma": 0.00039,
+    "vega": 5.59154,
+    "theta": -1.05761
+   }
+  },
+  {
+   "strike": 24800,
+   "CE": {
+    "ltp": 13.98,
+    "prev_ltp": 11.7,
+    "iv": 12.6,
+    "oi": 2130868,
+    "prev_oi": 2037533,
+    "volume": 1118582,
+    "anomaly": null,
+    "delta": 0.07466,
+    "gamma": 0.00033,
+    "vega": 4.71784,
+    "theta": -4.56465
+   },
+   "PE": {
+    "ltp": 633.16,
+    "prev_ltp": 722.92,
+    "iv": 12.62,
+    "oi": 246436,
+    "prev_oi": 259166,
+    "volume": 148146,
+    "anomaly": null,
+    "delta": -0.92501,
+    "gamma": 0.00034,
+    "vega": 4.73358,
+    "theta": -0.17604
+   }
+  },
+  {
+   "strike": 24850,
+   "CE": {
+    "ltp": 10.77,
+    "prev_ltp": 8.6,
+    "iv": 12.61,
+    "oi": 1825066,
+    "prev_oi": 1771468,
+    "volume": 557783,
+    "anomaly": null,
+    "delta": 0.05984,
+    "gamma": 0.00028,
+    "vega": 3.97567,
+    "theta": -3.83638
+   },
+   "PE": {
+    "ltp": 679.78,
+    "prev_ltp": 769.72,
+    "iv": 12.6,
+    "oi": 150629,
+    "prev_oi": 153289,
+    "volume": 49160,
+    "anomaly": null,
+    "delta": -0.94031,
+    "gamma": 0.00028,
+    "vega": 3.96795,
+    "theta": 0.59387
+   }
+  },
+  {
+   "strike": 24900,
+   "CE": {
+    "ltp": 7.6,
+    "prev_ltp": 6.84,
+    "iv": 12.42,
+    "oi": 1038203,
+    "prev_oi": 1071292,
+    "volume": 551709,
+    "anomaly": null,
+    "delta": 0.04484,
+    "gamma": 0.00023,
+    "vega": 3.1612,
+    "theta": -2.99594
+   },
+   "PE": {
+    "ltp": 726.73,
+    "prev_ltp": 819.72,
+    "iv": 12.47,
+    "oi": 95505,
+    "prev_oi": 90725,
+    "volume": 65724,
+    "anomaly": null,
+    "delta": -0.9545,
+    "gamma": 0.00023,
+    "vega": 3.19822,
+    "theta": 1.38574
+   }
+  }
+ ],
+ "synthetic": true
+}
